@@ -1,5 +1,5 @@
-import "./App.css";
-import About from "./components/Navbar/About/About";
+import React from "react";
+import About from "./components/About/About";
 import NavBar from "./components/Navbar/Navbar";
 
 function App() {

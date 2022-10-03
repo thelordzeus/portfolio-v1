@@ -1,4 +1,5 @@
-import Cards from "../../Cards.jsx";
+import React from "react";
+import Cards from "../Card/Cards";
 import profile from "./profile.jpg";
 import {
   AiOutlineGithub,
