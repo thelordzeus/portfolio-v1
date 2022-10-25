@@ -16,7 +16,7 @@ const Hero = () => {
       <div name="home" className="h-screen w-full">
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-denter h-full px-4 md:flex-row md:mt-1">
           <div className="flex flex-col justify-center h-full ">
-            <h1 className="text-4xl sm:text-7xl font-bold text-white text-left ">
+            <h1 className="text-4xl sm:text-7xl font-bold text-white text-left">
               HELLO WORLD!
             </h1>
             <h1 className="text-4xl sm:text-7xl font-bold text-white text-left">
