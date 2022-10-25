@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import "../src/App.css";
+import "../src/Styles/demo.css";
 import reportWebVitals from "./reportWebVitals";
 
 //Import all css files in index.js (I follow this pattern and most of the comapanies too)
