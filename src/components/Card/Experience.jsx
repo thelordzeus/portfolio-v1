@@ -3,9 +3,9 @@ import "../Card/testStyle.css";
 const Experience = () => {
   return (
     <>
-      <div className="">
-        <h1 className="text-4xl my-16 text-white Experince">Experince</h1>
-      </div>
+      <div className="Experince">
+        <h1 className="text-4xl my-16 text-white">Experince</h1>
+ 
       <section class="card-list ">
         <article class="card">
           <header class="card-header">
@@ -41,11 +41,10 @@ const Experience = () => {
         <article class="card">
           <header class="card-header">
             <p>6th - 9th August</p>
-            <p>
-              - Team-made an app for doctors to track their patents and
-              patients' medical history in one place.
+            <p className="text-left">
+              - Team created an app for doctors to track patents and patient medical history.
             </p>
-            <p>
+            <p className="text-left">
               - The app uses REDIS and licence numbers to authorise doctors.
             </p>
           </header>
@@ -66,149 +65,54 @@ const Experience = () => {
               HACK O HEIST
             </div>
           </div>
-
-          <div class="tags">
-            {/* <a href="#">html</a>
-          <a href="#">css</a>
-          <a href="#">web-dev</a> */}
-          </div>
         </article>
 
         <article class="card">
           <header class="card-header">
-            <p>Sep 11th 2020</p>
-            <h2>Never forget</h2>
+            <p>March 2022 - May 2022</p>
+            <p className="text-left">
+              - Worked on 3 projects which were successfully merged into the Main Project Repository.
+            </p>
           </header>
 
           <div class="card-author">
-            <a class="author-avatar" href="#">
-              <img src="avatar.png" />
+            <a class="author-avatar" href="https://hackoheist.devfolio.co/">
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ZwRqw4J3AXvXO6EbZG3qSwAAAA%26pid%3DApi&f=1&ipt=a3f5f30389e992409a5b660a1da9805cee22682cb31d031283a6a617775314e9&ipo=images"
+                alt="hackathon"
+              />
             </a>
             <svg class="half-circle" viewBox="0 0 106 57">
               <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
             </svg>
 
             <div class="author-name">
-              <div class="author-name-prefix">Author</div>
-              Jeff Delaney
+              <div class="author-name-prefix text-white">OPEN SOURCE</div>
+              GirlScript SoC'22
             </div>
-          </div>
-
-          <div class="tags">
-            <a href="#">html</a>
-            <a href="#">css</a>
-            <a href="#">web-dev</a>
           </div>
         </article>
 
         <article class="card">
-          <header class="card-header">
-            <p>Sep 11th 2020</p>
-            <h2>Never forget</h2>
-          </header>
+            <header class="card-header">
+              <p></p>
+              <p className="text-left">
 
-          <div class="card-author">
-            <a class="author-avatar" href="#">
-              <img src="avatar.png" />
-            </a>
-            <svg class="half-circle" viewBox="0 0 106 57">
-              <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-            </svg>
+              </p>
+            </header>
 
-            <div class="author-name">
-              <div class="author-name-prefix">Author</div>
-              Jeff Delaney
+            <div class="project-author ">
+              <div class="author-name">
+                <div class="author-name-prefix text-white ">COMMING SOON....</div>
+              </div>
             </div>
-          </div>
 
-          <div class="tags">
-            <a href="#">html</a>
-            <a href="#">css</a>
-            <a href="#">web-dev</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <header class="card-header">
-            <p>Sep 11th 2020</p>
-            <h2>Never forget</h2>
-          </header>
-
-          <div class="card-author">
-            <a class="author-avatar" href="#">
-              <img src="avatar.png" />
-            </a>
-            <svg class="half-circle" viewBox="0 0 106 57">
-              <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-            </svg>
-
-            <div class="author-name">
-              <div class="author-name-prefix">Author</div>
-              Jeff Delaney
-            </div>
-          </div>
-
-          <div class="tags">
-            <a href="#">html</a>
-            <a href="#">css</a>
-            <a href="#">web-dev</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <header class="card-header">
-            <p>Sep 11th 2020</p>
-            <h2>Never forget</h2>
-          </header>
-
-          <div class="card-author">
-            <a class="author-avatar" href="#">
-              <img src="avatar.png" />
-            </a>
-            <svg class="half-circle" viewBox="0 0 106 57">
-              <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-            </svg>
-
-            <div class="author-name">
-              <div class="author-name-prefix">Author</div>
-              Jeff Delaney
-            </div>
-          </div>
-
-          <div class="tags">
-            <a href="#">html</a>
-            <a href="#">css</a>
-            <a href="#">web-dev</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <header class="card-header">
-            <p>Sep 11th 2020</p>
-            <h2>Never forget</h2>
-          </header>
-
-          <div class="card-author">
-            <a class="author-avatar" href="#">
-              <img src="avatar.png" />
-            </a>
-            <svg class="half-circle" viewBox="0 0 106 57">
-              <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-            </svg>
-
-            <div class="author-name">
-              <div class="author-name-prefix">Author</div>
-              Jeff Delaney
-            </div>
-          </div>
-
-          <div class="tags">
-            <a href="#">html</a>
-            <a href="#">css</a>
-            <a href="#">web-dev</a>
-          </div>
-        </article>
+            {/* <div class="tags space-x-2">
+              <a href="https://github.com/thelordzeus/HackerNews"></a>
+            </div> */}
+          </article>
       </section>
+      </div>
     </>
   );
 };

@@ -46,13 +46,14 @@ const icons = [
 
 const Skills = () => {
   const options = {
-    scrollPause: false,
-    paused: false,
-    noMouse: false,
-    pinchZoom: false,
+    noMouse: true,
+    pinchZoom: true,
+    maxSpeed: 0.02,
+    initial:[0.8,-0.3]
   };
   return (
-    <Cloud options={options}>
+    <div className="CloudTag">
+<Cloud options={options}>
       {icons}
 
       <a
@@ -68,6 +69,8 @@ const Skills = () => {
         />
       </a>
     </Cloud>
+    </div>
+    
   );
 };
 

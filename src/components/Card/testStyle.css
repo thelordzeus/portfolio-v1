@@ -64,6 +64,14 @@ body {
   margin: 3rem 0 0;
 }
 
+.project-author {
+  position: relative;
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  align-items: center;
+  margin: 0 10% 0 35%;
+}
+
 .author-avatar img {
   display: block;
   width: 40px;
