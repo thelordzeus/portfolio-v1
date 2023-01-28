@@ -9,8 +9,7 @@ const Projects = () => {
               <p>Jan 2023</p>
               <p className="text-left">
                 It was part of a submission for the buildspace bounties
-                tournament where they wanted us to create a landing page for
-                there bounties section.
+                tournament where I won the prize pool of $200.
               </p>
             </header>
 
