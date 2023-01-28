@@ -18,7 +18,11 @@ const Experience = () => {
             </header>
 
             <div class="card-author">
-              <a class="author-avatar" href="https://codelancedevs.com/">
+              <a
+                class="author-avatar"
+                href="https://codelancedevs.com/"
+                target="_blank"
+              >
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAMAAAAt85rTAAAAdVBMVEUAAAAAo1kAt2QA4XsA/4sAqFsAWjEAAwEArl8AoFgARSUA5H0Au2YAajoA/44A2XYAl1MACgUASykAfEQAd0EAEgoAhkkAVS4AYjUACQUAbTwAjE0AHRAATysAQiQAoVgAOiAAMhsAsmEAKRcAz3EAFAoAklBL2FIIAAACG0lEQVR4nO3dzVIaQRSAUY2BQQQVUPkdBEx4/0dMZjRZuLmtGLsnnm99C/ps6KnqqebsTJIkSZIkSZIkSV+kXT+hfe5Vvr9q1Ysb9HMv8/1V4955WA+w3AABCw8QsPAAAQsPELDwAAELDxCw8AABCw8QsPAAAQsPELDwADsPXCUAO32EXc/uwmbb3Ms8ocl9QpPcq5RUVrvjbdxDM1nN1w9h62lu0OuGh1HceTPZ0Y1+OPgWNrpsJgEBswQICJg3QEDAvAECAuYNEBAwb4CAgHkDBATMGyAgYN4Auw8cxcDHZrKjwG3vEHfbTFbjy7jHeW7Q6zb1PO75zYJ9PQ2rnzJ7JH1K9SKh9n6pzbSOG7Yfup8Ow6af9CNzuIn7sWgmt+eHQdTLNrF4LGebGF1dRF3djJvJjm70CcCLP8BOPqoBAgICAgICAgICAgICAgICAgICAgICAgICAgJ+JWDcCzDlso7yTnhvE1Z9aI/T33DdSr+T161ISm55Pwl7ubgtHvxd1UxWy5TR9kOryTKuOgG4iN9JGgxmP5vRWcJP47F9QWt/N4tbtd8/XCW0OwF4vE5otGlGP3gffL606p///+D6+nvYX2AXn2QAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB/xvgBx9hX7Qn7yUdYdfHddhxfN+MLhLeLLjbNZNPKTfPPK96109ofwJQkiRJkiRJkiRJb+oXjMb97vnF1n4AAAAASUVORK5CYII="
                   alt="logo"
