@@ -3,8 +3,8 @@ import "../Card/testStyle.css";
 const Experience = () => {
   return (
     <>
-      <div className="Experince">
-        <h1 className="text-4xl my-16 text-white">Experince</h1>
+      <div className="Experience">
+        <h1 className="text-4xl my-16 text-white">Experience</h1>
 
         <section class="card-list ">
           <article class="card">
@@ -39,12 +39,7 @@ const Experience = () => {
             </div>
 
             <div class="tags">
-              <a
-                href="https://drive.google.com/file/d/1OAelLlVteZKVaxpEYxmAnfAYmrBhhADv/view?usp=share_link"
-                target="_blank"
-              >
-                CERTIFICATE
-              </a>
+              {/* this is where you can add your certificates  */}
             </div>
           </article>
           <article class="card">

@@ -33,6 +33,26 @@ const Projects = () => {
             <header class="card-header">
               <p>Jan 2023</p>
               <p className="text-left">
+                A template code to make a whats app chat bot using twillio and
+                chatSonic
+              </p>
+            </header>
+
+            <div class="project-author ">
+              <div class="author-name">
+                <div class="author-name-prefix text-white ">BHAII SUN</div>
+              </div>
+            </div>
+
+            <div class="tags space-x-2">
+              <a href="https://github.com/thelordzeus/bhaii-sun">Code</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <header class="card-header">
+              <p>Jan 2023</p>
+              <p className="text-left">
                 ContentGen is a chatGPT powered website that makes it easy for
                 users to generate professional-quality LinkedIn posts with just
                 a few clicks.
