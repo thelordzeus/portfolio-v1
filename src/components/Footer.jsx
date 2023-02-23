@@ -11,7 +11,7 @@ export const Footer = () => {
         >
           <img src={zeusLogo} className="h-8 mr-3" alt="Flowbite Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Lord Zeus 
+            Lord Zeus
           </span>
         </a>
         <ul className="flex flex-wrap items-center mb-6 text-sm text-white sm:mb-0 dark:text-white ">
@@ -21,18 +21,27 @@ export const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6 text-white">
-              Privacy Policy
+            <a
+              href="https://www.linkedin.com/in/arnavshukla/"
+              className="mr-4 hover:underline md:mr-6 text-white"
+            >
+              Linkdin
             </a>
           </li>
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6 text-white">
-              Licensing
+            <a
+              href="https://github.com/thelordzeus"
+              className="mr-4 hover:underline md:mr-6 text-white"
+            >
+              Github
             </a>
           </li>
           <li>
-            <a href="#" className="hover:underline text-white">
-              Contact
+            <a
+              href="https://www.linkedin.com/in/arnavshukla/recent-activity/shares/"
+              className="hover:underline text-white"
+            >
+              Blog
             </a>
           </li>
         </ul>
