@@ -6,6 +6,28 @@ const Projects = () => {
         <section class="card-list ">
           <article class="card">
             <header class="card-header">
+              <p>Feb 2023</p>
+              <p className="text-left">
+                Web3 technology based donations app which enables secure and
+                transparent transactions, allowing donors to have complete
+                control over their donations without worrying about fraud or
+                misuse.
+              </p>
+            </header>
+
+            <div class="project-author ">
+              <div class="author-name">
+                <div class="author-name-prefix text-white ">Altruize</div>
+              </div>
+            </div>
+
+            <div class="tags space-x-2">
+              <a href="https://altruize.vercel.app/">Live</a>
+              <a href="https://github.com/zeeshan8281/Altruize">Code</a>
+            </div>
+          </article>
+          <article class="card">
+            <header class="card-header">
               <p>Jan 2023</p>
               <p className="text-left">
                 It was part of a submission for the buildspace bounties
