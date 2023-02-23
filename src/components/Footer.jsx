@@ -9,20 +9,21 @@ export const Footer = () => {
           href="https://thelordzeus.vercel.app/"
           className="flex items-center mb-4 sm:mb-0"
         >
-          <img src={zeusLogo} className="h-8 mr-3" alt="Flowbite Logo" />
+          <img src={zeusLogo} className="h-8 mr-3" alt="Lord Zeus Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             Lord Zeus
           </span>
         </a>
         <ul className="flex flex-wrap items-center mb-6 text-sm text-white sm:mb-0 dark:text-white ">
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6 text-white">
+            <a href="#" target="_blank" className="mr-4 hover:underline md:mr-6 text-white">
               Github Repo
             </a>
           </li>
           <li>
             <a
               href="https://www.linkedin.com/in/arnavshukla/"
+              target="_blank"
               className="mr-4 hover:underline md:mr-6 text-white"
             >
               Linkdin
@@ -31,6 +32,7 @@ export const Footer = () => {
           <li>
             <a
               href="https://github.com/thelordzeus"
+              target="_blank"
               className="mr-4 hover:underline md:mr-6 text-white"
             >
               Github
@@ -39,6 +41,7 @@ export const Footer = () => {
           <li>
             <a
               href="https://www.linkedin.com/in/arnavshukla/recent-activity/shares/"
+              target="_blank"
               className="hover:underline text-white"
             >
               Blog
