@@ -3,11 +3,12 @@ import Hero from "./components/About/Hero";
 
 import Experience from "./components/Card/Experience";
 import Projects from "./components/Card/Projects";
+import { Footer } from "./components/Footer";
 import NavBar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="App  bg-gradient-to-b from-black via-black to-gray-800 space-y-3">
+    <div className="App  bg-black space-y-3">
       <NavBar />
 
       <Hero />
@@ -15,6 +16,7 @@ function App() {
       <Experience />
 
       <Projects />
+      <Footer />
     </div>
   );
 }
